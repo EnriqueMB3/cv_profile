@@ -1,0 +1,42 @@
+nav {
+    position: fixed;
+    background-color: #111C27;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    z-index: 1;
+    margin: 0px;
+    ul {
+        display: flex;
+        text-align: left;
+        list-style-type: none;
+        list-style-type: none;
+        margin: 0px;
+        padding: 5px;
+        li {
+            display: inline;
+            font-family: "muli", sans-serif;
+            font-weight: bold;
+            font-size: 17px;
+            align-self: center;
+            a {
+                color: #f2f2f2;
+                text-decoration: none;
+                padding: 5px 15px 5px 5px;
+                &:hover {
+                    opacity: .8;
+                }
+            }
+        }
+    }
+}
+
+.__nav_background {
+    background-image: url('../../../assets/background-two.png');
+    width: 100vw;
+    height: 12rem;
+    z-index: -3;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

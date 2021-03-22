@@ -1,0 +1,36 @@
+.__profile_avatar_photo {
+    border-radius: 50%;
+    height: 10rem;
+    align-self: center;
+}
+
+.__profile_container {
+    margin: auto;
+    width: 80vw;
+    text-align: center;
+    h5 {
+        color: darken($color: $light-gray, $amount: 40);
+    }
+    h2 {
+        font-size: 2rem;
+        color: $dark-text;
+    }
+    p {
+        color: darken($color: $light-gray, $amount: 20);
+        font-size: 1rem;
+        text-align: center;
+    }
+}
+
+.__profile_svg_icons {
+    position: relative;
+    bottom: 1rem;
+    z-index: 0;
+}
+
+.__profile_social {
+    margin: .5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}

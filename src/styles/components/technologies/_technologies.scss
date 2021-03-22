@@ -1,0 +1,37 @@
+.__technologies_content {
+    margin: 0rem auto;
+    background-color: #F6F6F6;
+    padding-bottom: 50px;
+    h2 {
+        color: $purple;
+        text-align: center;
+    }
+}
+
+.__techologies_separator {
+    margin: -.3rem auto;
+}
+
+.__technologies_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+    margin: 1rem 2rem;
+    color: lighten($color: $dark-text, $amount: 10);
+}
+
+@media (max-width: 480px) {
+    .__technologies_list {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1.5rem;
+        margin: 2rem;
+    }
+    .__technologies_item {
+        flex: 1 1 auto;
+    }
+}

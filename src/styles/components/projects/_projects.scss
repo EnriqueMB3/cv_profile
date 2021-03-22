@@ -1,0 +1,91 @@
+.__projects_content {
+    margin: 1rem auto;
+    padding: 5px;
+    padding-bottom: 50px;
+    h2 {
+        color: $purple;
+        text-align: center;
+    }
+}
+
+.__projects_cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.__projects_card_item {
+    max-width: 280px;
+    padding: 8px;
+    display: flex;
+    margin: auto 2rem;
+    -webkit-box-shadow: 4px 4px 11px 0px rgba(0, 0, 0, 0.23);
+    box-shadow: 4px 4px 11px 0px rgba(0, 0, 0, 0.23);
+    border-radius: 10px;
+    &:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+        box-shadow: 0px 12px 30px 0px rgba(0, 0, 0, 0.2);
+        transition: ease-in-out 600ms;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .__projects_cards {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        gap: 1rem;
+        margin: auto;
+    }
+    .__projects_card_item {
+        max-width: 100%;
+        padding: 8px;
+        display: flex;
+        margin: auto 2rem;
+        -webkit-box-shadow: 4px 4px 11px 0px rgba(0, 0, 0, 0.23);
+        box-shadow: 4px 4px 11px 0px rgba(0, 0, 0, 0.23);
+        border-radius: 10px;
+        &:hover {
+            transform: scale(1.1);
+            cursor: pointer;
+            box-shadow: 0px 12px 30px 0px rgba(0, 0, 0, 0.2);
+            transition: ease-in-out 600ms;
+        }
+        h3 {
+            font-size: 1rem;
+        }
+    }
+}
+
+@media (max-width: 540px) {
+    .__projects_cards {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1rem;
+        margin: auto;
+    }
+    .__projects_card_item {
+        max-width: 100%;
+        padding: 8px;
+        display: flex;
+        margin: auto 2rem;
+        -webkit-box-shadow: 4px 4px 11px 0px rgba(0, 0, 0, 0.23);
+        box-shadow: 4px 4px 11px 0px rgba(0, 0, 0, 0.23);
+        border-radius: 10px;
+        &:hover {
+            transform: scale(1.1);
+            cursor: pointer;
+            box-shadow: 0px 12px 30px 0px rgba(0, 0, 0, 0.2);
+            transition: ease-in-out 600ms;
+        }
+        h3 {
+            font-size: 1rem;
+        }
+    }
+}
