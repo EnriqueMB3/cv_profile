@@ -52,7 +52,7 @@ export const Sidebar = ({isShowing,  toggle}) => {
 
                     <Link  smooth={true}
                     hashSpy={true}
-                    offset={-30}
+                    offset={-40}
                     duration={500}
                     delay={400}   isDynamic={true} onClick={toggle}  className="__sidebar_link" to="Projects" >Projects</Link>
                     </li>
@@ -61,7 +61,7 @@ export const Sidebar = ({isShowing,  toggle}) => {
 
                     <Link  smooth={true}
                     hashSpy={true}
-                    offset={50}
+                    offset={-50}
                     duration={500}
                     delay={400}   isDynamic={true} onClick={toggle}  className="__sidebar_link" to="Technologies" >Technologies</Link>
                     </li>

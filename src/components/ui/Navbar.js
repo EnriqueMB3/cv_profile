@@ -38,13 +38,13 @@ export const Navbar = ({toggle}) => {
                 <Link   smooth={true}
       hashSpy={true}
       duration={500}
-      delay={400}   isDynamic={true}  offset={-50} to="Skills">Skills</Link>
+      delay={400}   isDynamic={true}  offset={-60} to="Skills">Skills</Link>
                 </li>
                 <li> 
                 <Link   smooth={true}
       hashSpy={true}
       duration={500}
-      delay={400}  isDynamic={true} offset={-50} to="Projects">Projects</Link>
+      delay={400}  isDynamic={true} offset={-60} to="Projects">Projects</Link>
                 </li>
 
                 <li>

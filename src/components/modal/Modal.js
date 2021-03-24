@@ -12,7 +12,7 @@ const Modal = ({ isShowing, hide }) => isShowing ? ReactDOM.createPortal(
           </button>
         </div>
         <p>
-          Hello, I'm a modal.
+          Proximamente
         </p>
       </div>
     </div>
