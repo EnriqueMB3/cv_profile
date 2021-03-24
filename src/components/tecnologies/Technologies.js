@@ -18,6 +18,7 @@ import Photoshop from '../../assets/img/photoshop.png';
 import Mongodb from '../../assets/img/mongodb.png';
 import Xd from '../../assets/img/xd.png';
 import Xamarin from '../../assets/img/xamarin.png';
+import { Element } from 'react-scroll';
 
 
 
@@ -38,6 +39,8 @@ import Xamarin from '../../assets/img/xamarin.png';
 export const Technologies = () => {
     return (
         <>
+        <Element name="Technologies"> 
+
         <Separation width="100vw" className="__techologies_separator"/>
         <div className="__technologies_content">
             
@@ -158,6 +161,7 @@ export const Technologies = () => {
             </div>
             </div>
         </div>
+        </Element>
         </>
     )
 }

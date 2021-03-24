@@ -1,12 +1,13 @@
 .__profile_avatar_photo {
     border-radius: 50%;
-    height: 10rem;
+    height: 12rem;
     align-self: center;
 }
 
 .__profile_container {
     margin: auto;
     width: 80vw;
+    padding: 3rem 0rem;
     text-align: center;
     h5 {
         color: darken($color: $light-gray, $amount: 40);
@@ -19,6 +20,7 @@
         color: darken($color: $light-gray, $amount: 20);
         font-size: 1rem;
         text-align: center;
+        line-height: 1.5rem;
     }
 }
 

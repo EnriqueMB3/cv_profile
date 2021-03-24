@@ -5,6 +5,7 @@ import {ReactComponent as Ui} from '../../assets/ui.svg';
 import {ReactComponent as Mobile} from '../../assets/medical-app.svg';
 import {ReactComponent as Design} from '../../assets/vector_pen.svg';
 import {ReactComponent as Frontend} from '../../assets/web-design.svg';
+import { Element } from 'react-scroll';
 
 
 
@@ -14,8 +15,11 @@ import {ReactComponent as Frontend} from '../../assets/web-design.svg';
 
 export const Skills = () => {
     return (
+
+      <Element name="Skills">
+
         <div className="__skills_container">
-            <h2>Skills</h2>
+            <h2 className="mb-5">Skills</h2>
 
             <div className="__skills_list">
               
@@ -27,7 +31,7 @@ export const Skills = () => {
                     </div>
                     <div className="__skills_properties">
                         <h3>Backend</h3>
-                        <p>Web API RESTful. Producing the connection between the client and the server. I can use .NET core or Nodejs</p>
+                        <p>Web API RESTful. Producing the connection between the client and the server. I can use .NET core or Node.js</p>
 
                     </div>
                 </div>
@@ -98,10 +102,11 @@ export const Skills = () => {
                     
                     <div className="__skills_properties">
                         <h3>Graphic Design</h3>
-                        <p>Define the form, function, utility, branding and other aspects that affect the external appearance of user interfaces</p>
+                        <p>Create and project visual pieces destined to transmit specific messages, and achieve distinct objectives</p>
                     </div>
                 </div>
             </div>
         </div>
+      </Element>
     )
 }

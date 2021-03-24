@@ -13,13 +13,34 @@
     }
 }
 
+.__information_content_end {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    text-align: center;
+    background-color: $dark-text;
+    color: $white;
+    display: flex;
+    div {
+        text-align: center;
+        padding-top: 10px;
+    }
+}
+
 .__information_avatar {
     position: relative;
-    height: 10rem;
+    height: 15rem;
     text-align: left;
     left: 20px;
     bottom: 0px;
-    margin-top: -90px;
+    margin-top: -150px;
+}
+
+.__information_contactme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
 }
 
 @media (max-width: 480px) {
@@ -50,7 +71,7 @@
         text-align: left;
         left: 5px;
         bottom: 0px;
-        margin-top: -114px;
+        margin-top: -153px;
         height: 4rem;
     }
 }

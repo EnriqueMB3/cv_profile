@@ -1,11 +1,6 @@
 import React from 'react';
 import  Avatar from '../../assets/pp.jpeg';
 import {ReactComponent as Bozco} from '../../assets/bozco.svg';
-
-
-
-
-
 import Robot from '../svg/Robot';
 import Github from '../svg/Github';
 import Linkedin from '../svg/LinkedIn';
@@ -34,10 +29,10 @@ export const AboutMe = () => {
 
                 
             </div>
-            <h5>About me</h5>
+            <h5 className="mt-1 mb-1">About me</h5>
             <p className="mb-5">
             Graduate from Instituto Tecnológico de Estudios Superiores de la Región Carbonífera as system engineer.
-            Also I’m developing systems as a freenlancer. Self-taught at heart; I like to learn new things in topics
+            Also I’m developing systems as a freelancer. Self-taught at heart; I like to learn new things in topics
             related to graphic design of digital type and new technologies focused on the career that I study. My
             hobbies range from drawing cartoons to writing stories and tales.
             </p>

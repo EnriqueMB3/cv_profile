@@ -3,7 +3,7 @@ nav {
     background-color: #111C27;
     top: 0;
     overflow: hidden;
-    width: 100%;
+    width: 100vw;
     z-index: 1;
     margin: 0px;
     ul {
@@ -14,11 +14,18 @@ nav {
         margin: 0px;
         padding: 5px;
         li {
+            cursor: pointer;
             display: inline;
             font-family: "muli", sans-serif;
             font-weight: bold;
-            font-size: 17px;
+            font-size: 14px;
             align-self: center;
+            color: $white;
+            &:not(:first-child):not(:last-child) {
+                @media screen and (max-width: 768px) {
+                    display: none;
+                }
+            }
             a {
                 color: #f2f2f2;
                 text-decoration: none;
@@ -39,4 +46,17 @@ nav {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.__nav_mobile_icon {
+    display: none;
+    @media screen and (max-width: 768px) {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 60%);
+        font-size: 1rem;
+        cursor: pointer;
+    }
 }

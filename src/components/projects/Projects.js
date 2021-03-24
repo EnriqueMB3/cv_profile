@@ -2,10 +2,13 @@ import React from 'react'
 import FcaSabinas from '../../assets/fcasabinas_logo.png';
 import Donut from '../../assets/donut.png';
 import Pokeball from '../../assets/pokeball.png';
+import { Element } from 'react-scroll';
 
 
 export const Projects = () => {
     return (
+        <Element name="Projects">
+
         <div className="__projects_content">
             <h2 className="mb-5">Projects</h2>
 
@@ -41,5 +44,6 @@ export const Projects = () => {
                 </div>
             </div>
         </div>
+        </Element>
     )
 }

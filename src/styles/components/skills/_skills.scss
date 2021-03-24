@@ -1,6 +1,6 @@
 .__skills_container {
     margin: 2rem auto;
-    padding: 5px;
+    padding: 2rem 0rem;
     background-color: $background;
     h2 {
         color: $purple;
@@ -13,8 +13,8 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 1rem;
-    margin: 1rem 2rem;
+    gap: 2rem;
+    margin: 0rem 5rem;
 }
 
 .__skills_item {

@@ -1,0 +1,66 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1040;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, .5);
+    opacity: .5;
+    transition: all ease 1s;
+}
+
+.modal-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1050;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    outline: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.modal {
+    z-index: 100;
+    background: $white;
+    position: relative;
+    margin: 1.75rem 1rem;
+    border-radius: 3px;
+    max-width: 500px;
+    flex: 1 1 auto;
+    height: fit-content;
+    padding: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+.modal-header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modal-close-button {
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    opacity: .3;
+    cursor: pointer;
+    border: none;
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
+}

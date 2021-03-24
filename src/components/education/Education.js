@@ -1,11 +1,16 @@
 import React from 'react'
+import { Element } from 'react-scroll'
 import PencilDog from '../svg/PencilDog'
+
 
 
 export const Education = () => {
     return (
-        <div className="__education_container mt-5">
-            <PencilDog width="8rem"/>
+        <>
+        <Element name="Education">
+
+        <div className="__education_container mt-5" >
+            <PencilDog width="8rem" className="mb-5"/>
             <h2>Education</h2>
             <div className="__education_degrees mt-5">
                 <div className="__education_year">
@@ -40,5 +45,7 @@ export const Education = () => {
                 </div>
             </div>
         </div>
+        </Element>
+        </>
     )
 }

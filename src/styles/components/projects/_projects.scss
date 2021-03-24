@@ -1,7 +1,6 @@
 .__projects_content {
-    margin: 1rem auto;
+    margin: 4rem 0rem;
     padding: 5px;
-    padding-bottom: 50px;
     h2 {
         color: $purple;
         text-align: center;
@@ -12,14 +11,14 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .__projects_card_item {
     max-width: 280px;
+    max-height: 500px;
     padding: 8px;
     display: flex;
-    margin: auto 2rem;
     -webkit-box-shadow: 4px 4px 11px 0px rgba(0, 0, 0, 0.23);
     box-shadow: 4px 4px 11px 0px rgba(0, 0, 0, 0.23);
     border-radius: 10px;
@@ -39,14 +38,13 @@
         display: flex;
         justify-content: space-around;
         flex-direction: column;
-        gap: 1rem;
+        gap: 2rem;
         margin: auto;
     }
     .__projects_card_item {
         max-width: 100%;
         padding: 8px;
         display: flex;
-        margin: auto 2rem;
         -webkit-box-shadow: 4px 4px 11px 0px rgba(0, 0, 0, 0.23);
         box-shadow: 4px 4px 11px 0px rgba(0, 0, 0, 0.23);
         border-radius: 10px;
