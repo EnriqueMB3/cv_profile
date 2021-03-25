@@ -29,7 +29,7 @@ export const Information = () => {
             <Avatarme   className="__information_avatar"/>
       
         </div>
-        <Modal header={"Say me something!"} content={Content }
+        <Modal header={"Tell me something!"} content={Content }
         isShowing={isShowing}
         hide={toggle} 
       />

@@ -9,7 +9,6 @@ export const Content = ({toggle}) => {
     
         emailjs.sendForm('service_cvprofile', 'template_cvprofile', e.target, 'user_UIjdTGNriEIQqRoEOJ7p2')
           .then((result) => {
-              console.log(result.text);
               toggle();
           }, (error) => {
               console.log(error.text);
@@ -28,7 +27,7 @@ export const Content = ({toggle}) => {
                 <input type="email" name="user_email" required />
                 <label>Message</label>
                 <textarea name="message" />
-                <button type="submit"  className="btn btn-green btn-xl" >Send</button>
+                <button type="submit"  className="btn btn-green btn-xl" >  Send</button>
             </form>
         </div>
     )

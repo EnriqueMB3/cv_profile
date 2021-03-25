@@ -41,7 +41,7 @@ export const Education = () => {
                     </div>
 
                     </div>
-                    <span>Angular - Reactjs - Nodejs</span>
+                    <span>Angular - React.js - Node.js</span>
                 </div>
             </div>
         </div>

@@ -47,7 +47,7 @@ export const Skills = () => {
                     
                     <div className="__skills_properties">
                         <h3>Databases</h3>
-                        <p> Estructure, Design and Administration of Database. MySQL and MongoDB</p>
+                        <p> Structure, Design and Administration of Database. MySQL and MongoDB</p>
                     </div>
                 </div>
 

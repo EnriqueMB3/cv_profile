@@ -44,7 +44,7 @@ export const Technologies = () => {
         <Separation width="100vw" className="__techologies_separator"/>
         <div className="__technologies_content">
             
-            <h2>Technolgies</h2>
+            <h2>Technologies</h2>
             <div className="__technologies_list">
 
             
