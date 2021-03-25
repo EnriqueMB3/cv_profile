@@ -11,6 +11,7 @@ body {
 main {
     margin: -9rem 0rem;
     width: 100%;
+    animation: fadein 2s;
 }
 
 .mt-1 {
@@ -66,4 +67,13 @@ a {
 
 ul {
     list-style: none;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }

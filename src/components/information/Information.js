@@ -1,5 +1,6 @@
 import React from 'react'
 import useModal from '../../hooks/useModal';
+import { Content } from '../contactme/Content';
 import Modal from '../modal/Modal';
 import Avatarme from '../svg/Avatar_me'
 import Logo from '../svg/Logo';
@@ -7,7 +8,7 @@ import Logo from '../svg/Logo';
 export const Information = () => {
 
     
-    const {isShowing,toggle} = useModal();
+    const {isShowing, toggle} = useModal();
     return (
         <>
         <div className="__information_content">
@@ -28,9 +29,9 @@ export const Information = () => {
             <Avatarme   className="__information_avatar"/>
       
         </div>
-        <Modal
+        <Modal header={"Say me something!"} content={Content }
         isShowing={isShowing}
-        hide={toggle}
+        hide={toggle} 
       />
         </>
     )

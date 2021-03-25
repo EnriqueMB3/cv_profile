@@ -1,0 +1,29 @@
+.__contactme-form {
+    margin-top: .5rem;
+}
+
+.__contactme-form {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem 0rem;
+    textarea {
+        resize: none;
+        outline: none;
+        padding: 5px;
+    }
+    input {
+        outline: none;
+        padding: 5px;
+    }
+    button {
+        align-self: center;
+    }
+}
+
+@media (max-width: 756px) {
+    .__contactme-form {
+        button {
+            align-self: stretch;
+        }
+    }
+}

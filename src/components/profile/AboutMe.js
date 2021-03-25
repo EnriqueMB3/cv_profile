@@ -38,7 +38,7 @@ export const AboutMe = () => {
             </p>
 
               
-              <a className="btn btn-red " href="../../assets/CV.pdf" download="CV_Enrique_Berrones_2021.pdf"  >Download CV <i className="fas fa-download"></i></a>
+              <a className="btn btn-red " href="https://drive.google.com/file/d/1quqe-csU6R1Ki2KSWySQx_6GyKT9EUBY/view?usp=sharing" download="CV_Enrique_Berrones_2021.pdf"  >Download CV <i className="fas fa-download"></i></a>
                 
 
         </div>
